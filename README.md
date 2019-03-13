@@ -41,4 +41,6 @@ server {
     
 }
 
+修改完conf文件之后重启nginx即可（service nginx restart）
+
 最近遇到的一个坑，就是忘记在服务器的安全组把443端口打开，特此记录下
